@@ -20,7 +20,7 @@
       <ul>
         {{#each burgers}}
           {{#if swallowed}}
-            {{> burgers/burger-block}}
+            {{> burgers/burger-block swallow = true}}
           {{/if}}
         {{/each}}
       </ul>

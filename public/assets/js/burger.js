@@ -5,7 +5,7 @@ $(function() {
       var swallow = $(this).data("swallow");
   
       var swallowedState = {
-        swallowed: swallow
+        swallowed: true
       };
   
       // Send the PUT request.
